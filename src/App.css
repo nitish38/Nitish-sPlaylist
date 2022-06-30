@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+img {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 50%;
+}
+.player {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #313131;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0px auto;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
+    inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+.songDetails > h2 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+.songDetails > h3 {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px;
+}
+.songDetails > h4 {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.controls .play-btn {
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8),
+    -4px -4px 10px rgba(255, 255, 255, 0.4),
+    inset -4px -4px 10px rgba(0, 0, 0, 0.4),
+    inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+  border: none;
+  outline: none;
+  background-color: #ffce00;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+.controls .skip-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
